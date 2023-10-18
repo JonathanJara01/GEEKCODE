@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './Components/Footer'
 import imagenLogo from './Components/Images/Captura_de_pantalla_2023-09-13_151842-removebg-preview.png'
 function App() {
 
@@ -18,6 +19,9 @@ function App() {
       <h3>aca va el contenido</h3>
       <p>soy la carta</p>
       <span>titulos x</span>
+    </div>
+    <div>
+      <Footer/>
     </div>
     </>
   )
