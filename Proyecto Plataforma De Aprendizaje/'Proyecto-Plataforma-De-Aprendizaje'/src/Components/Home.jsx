@@ -1,5 +1,9 @@
-import React from 'react'
-import Publicidad from './Publicidad'
+import React from 'react';
+
+
+//COMPONENTES
+import Publicidad from './Publicidad';
+import Videos from './Videos';
 
 const Home = () => {
   return (
@@ -9,7 +13,10 @@ const Home = () => {
             <p className="text-justify">ACA ESTAN TODOS LOS CURSOS GEEK</p>
         </div>
         <div>
-          <Publicidad/>
+          <Videos />
+        </div>
+        <div>
+          <Publicidad />
         </div>
     </div>
   )
